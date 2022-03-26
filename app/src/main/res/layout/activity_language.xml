@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDDDDD"
+    android:orientation="vertical"
+    android:padding="25dp"
+    tools:context=".Language">
+
+    <TextView
+        android:id="@+id/languu"
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_horizontal"
+        android:gravity="center_horizontal|center_vertical"
+        android:paddingBottom="13dp"
+        android:text="Choose your Language"
+        android:textColor="#121111"
+        android:textSize="24sp"
+        android:textStyle="italic">
+
+    </TextView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/languagr_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/languu"
+        android:background="#E4E2E2"></androidx.recyclerview.widget.RecyclerView>
+
+
+</LinearLayout>
